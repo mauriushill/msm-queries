@@ -1,2 +1,2 @@
 <h1>Eldest director</h1>
-<p>The eldest director in our database right now is</p>
+<p>The eldest director in our database right now is <a href="/directors/<%= @elder.id %>"><%= @elder.name %></a>, born on <%= @elder.dob.strftime("%B  %m, %Y") %>.</p>

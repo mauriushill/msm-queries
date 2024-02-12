@@ -1,2 +1,4 @@
 <h1>Youngest director</h1>
-<p>The youngest director in our database right now is</p>
+
+
+<p>The youngest director in our database right now is <a href="/directors/<%= @young.id %>"><%= @young.name %></a> born on <%= @young.dob.strftime("%B  %m, %Y") %>. </p>
